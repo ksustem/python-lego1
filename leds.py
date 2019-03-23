@@ -3,5 +3,5 @@ import time
 leds = Leds()
 while True:
   leds.set_color("RIGHT", "RED")
-  time.sleep(1)
+  time.sleep(0.5)
   leds.set_color("LEFT", "AMBER")
